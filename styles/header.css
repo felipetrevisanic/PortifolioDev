@@ -28,9 +28,6 @@ header{
             margin-bottom: 1rem;
         }
     
-        & p span{
-            color: var(--color-red)
-        }
         
         & p:last-child{
             padding: 0 1rem;

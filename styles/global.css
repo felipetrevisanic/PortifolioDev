@@ -63,6 +63,12 @@ h2{
     fill: var(--color-blue);
 }
 
+.purple {
+    fill: var(--color-purple);
+}
+
 .txt-red {
-    color: var(--color-red)
+    color: var(--color-red);
+    font: var(--subtitle);
+    margin-bottom: .5rem;
 }
