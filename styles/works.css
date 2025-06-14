@@ -1,0 +1,45 @@
+.works { 
+    padding: 4.5rem 7.5rem;
+    background-color: var(--color-grey-200);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & span {
+        margin-bottom: .5rem;
+        font: var(--subtitle);
+    }
+
+    & h2 {
+        margin-bottom: 3.5rem;
+    }
+
+    & .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        max-width: 65rem;
+
+        & .card {
+            width: 17.5rem;
+            background-color: var(--color-grey-300);
+            padding: .75rem;
+            border-radius: .75rem;
+
+            img {
+                border-radius: .5rem;
+                margin-bottom: 1.25rem;
+            }
+
+            h3 {
+                font: var(--title-sm);
+                margin-bottom: .5rem;
+            }
+
+            p {
+                font: var(--text-sm);
+            }
+        }
+    }
+}

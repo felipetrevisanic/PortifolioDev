@@ -5,6 +5,8 @@
 }
 
 :root{
+    --color-grey-100: #0D0E11;
+    --color-grey-200: #16181D;
     --color-grey-300: #292C34;
     --text-color-400: #878EA1;
     --text-color-500: #c0c4ce;
@@ -17,12 +19,12 @@
     --font-asap: 'Asap', sans-serif;
     --font-inconsolata: 'Inconsolata', sans-serif;
     --font-maven: 'Maven Pro', sans-serif;
-    --title-lg: 800 56px/120% var(--font-asap);
-    --title-md: 800 24px/120% var(--font-asap);
-    --title-sm: 800 16px/120% var(--font-asap);
-    --subtitle: 400 20px/120% var(--font-inconsolata);
-    --text-md: 400 16px/140% var(--font-maven);
-    --text-sm: 400 14px/140% var(--font-maven);
+    --title-lg: 800 3.5rem/120% var(--font-asap);
+    --title-md: 800 1.5rem/120% var(--font-asap);
+    --title-sm: 800 1rem/120% var(--font-asap);
+    --subtitle: 300 1.25rem/120% var(--font-inconsolata);
+    --text-md: 400 1rem/140% var(--font-maven);
+    --text-sm: 400 .875rem/140% var(--font-maven);
 }
 
 body{
@@ -59,4 +61,8 @@ h2{
 
 .blue{
     fill: var(--color-blue);
+}
+
+.txt-red {
+    color: var(--color-red)
 }
